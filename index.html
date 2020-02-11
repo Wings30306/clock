@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>JS + CSS Clock</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
+  <head>
+    <meta charset="UTF-8">
+    <title>JS + CSS Clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand minute-hand"></div>
-        <div class="hand second-hand"></div>
+  <body>
+    <div class="container">
+      <div class="row clock">
+        <div class="clock-face">
+          <div class="hand hour-hand"></div>
+          <div class="hand minute-hand"></div>
+          <div class="hand second-hand"></div>
+        </div>
       </div>
+      <div class="row date">
+        <div class="col-12 col-lg-3">
+          <h2>Weekday</h2>
+          <div class="card weekday"></div>
+        </div>
+        <div class="col-4 col-lg-3">
+          <h2>Day</h2>
+          <div class="card day"></div>
+        </div>
+        <div class="col-4 col-lg-3">
+          <h2>Month</h2>
+          <div class="card month"></div>
+        </div>
+        <div class="col-4 col-lg-3">
+          <h2>Year</h2>
+          <div class="card year"></div>
+        </div>
+      </div>
+
+      
     </div>
 
+    <script src="script.js"></script>
+  </body>
 
-  <script src="script.js"></script>
-</body>
 </html>
