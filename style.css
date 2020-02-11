@@ -57,3 +57,8 @@ html {
       height: 4px;
       background-color: royalblue;
   }
+
+  .hour-hand {
+      width: 35%;
+      right: 50%
+  }
