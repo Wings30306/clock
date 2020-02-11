@@ -47,3 +47,13 @@ html {
     transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   }
+
+  .second-hand {
+    height: 2px;
+    background-color: red;
+  }
+
+  .minute-hand {
+      height: 4px;
+      background-color: royalblue;
+  }
