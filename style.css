@@ -1,14 +1,11 @@
-html {
+body {
     background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
     background-size: cover;
+    background-position: center;
     font-family: 'helvetica neue';
     text-align: center;
-    font-size: 10px;
-  }
-
-  body {
+    font-size: 3rem;
     margin: 0;
-    font-size: 2rem;
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -55,10 +52,18 @@ html {
 
   .minute-hand {
       height: 4px;
-      background-color: royalblue;
+      background-color: blue;
   }
 
   .hour-hand {
       width: 35%;
       right: 50%
+  }
+
+  .date h2 {
+      color: red;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 3.2rem;
+      padding-top: 2rem;
   }
